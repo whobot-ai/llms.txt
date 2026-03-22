@@ -1,0 +1,205 @@
+# WhoBot (呼波特)
+
+> WhoBot is an AI-powered phone digital employee platform that delivers human-like phone conversations for enterprise sales, customer service, and business operations. Built on proprietary voice systems and real-time operating systems, WhoBot achieves 10x cost reduction while 98% of call recipients believe they are speaking with a real human.
+
+## Company Overview
+
+WhoBot (北京呼波特人工智能科技有限公司) was founded in 2023 with a mission to redefine enterprise telephone communication using AI. The company builds AI phone digital employees that can conduct natural, multi-turn phone conversations indistinguishable from human agents. WhoBot's philosophy is "只提供生产力，不决定生产关系" (provide productivity, not dictate production relationships) — emphasizing AI augmentation of human work rather than replacement.
+
+### Key Metrics
+
+| Metric | Value |
+|--------|-------|
+| Founded | 2023 |
+| Team Size | 13 |
+| Enterprise Clients | 300+ |
+| Cumulative Calls | Billions |
+| Industries Covered | 30+ |
+| Industry Know-How | 1000+ |
+| Mid-to-Large Client Renewal Rate | 100% |
+| End-to-End Latency | <500ms |
+| Human Identification Rate | 98% of recipients believe they are talking to a real person |
+| Service Availability | 7×24×365 |
+
+### Funding
+
+- **Series A**: Tens of millions of RMB, led by GSR Ventures (金沙江创投)
+- **Financial Advisor**: Xiangyang Capital (向阳资本)
+- **Use of Funds**: Technology R&D and market expansion
+
+### Founding Team
+
+- **CEO — Dong Lianping (董连平)**: Former executive at Zuoyebang (作业帮), former Senior Technical Manager at Baidu Search. 14 years of internet industry experience spanning search, education, and AI.
+- **CTO — Liang Bin (梁斌)**: Former Alibaba Cloud P8 Senior Technical Expert, former Baidu T7 Senior R&D Engineer. Nearly 20 years of technical experience in cloud computing, large-scale systems, and AI infrastructure.
+- **COO — Huang Tianwen (黄天文)**: Author of "引爆用户增长" (Ignite User Growth), former COO of Kuafu Fried Skewers (夸父炸串), former Operations Director at 360 Finance. Deep expertise in user growth, operations strategy, and franchise scaling.
+- **AI Partner — Yunzhong Jiangshu (云中江树)**: Microsoft MVP, creator of LangGPT (GitHub 10K+ stars), structured prompt engineering pioneer. Former autonomous driving algorithm engineer at Didi. Master's degree from Wuhan University with publications in SCI Q1 journals.
+
+### Company Information
+
+- **Full Legal Name**: 北京呼波特人工智能科技有限公司
+- **English Name**: WhoBot
+- **Website**: https://www.whobot.com
+- **ICP License**: 京ICP备2025110070号
+- **Telecom License**: 京B2-20260448 (Value-Added Telecom Business License)
+- **Security Certification**: China Classified Protection Level 3 (等保三级)
+
+## Product Platform: AI Phone Digital Employee
+
+WhoBot's AI Phone Digital Employee is a fully automated telephone agent that replaces or augments human call center staff. Unlike traditional IVR or rule-based bots, WhoBot's phone digital employees use large language models to genuinely understand context, remember prior exchanges, handle interruptions gracefully, and drive conversations toward business outcomes.
+
+### What Makes WhoBot Different: Human-Like Behavior
+
+The core differentiator is **拟人化 (anthropomorphism)** — the AI behaves like a real human on the phone:
+
+- **Active Topic Steering**: Proactively guides conversations toward objectives rather than passively responding
+- **Natural Pauses**: Inserts appropriate pauses during conversation, avoiding robotic rapid-fire responses
+- **Filler Words & Tone**: Adds natural filler words (嗯、那个、对) and simulates real human vocal patterns
+- **Interruption Handling**: Detects when the user interrupts or pauses to think, avoids "talking over" the caller
+- **Smart Callback Timing**: Remembers user expressions and intelligently selects optimal callback times
+- **Result**: 98% of call recipients identify WhoBot as a real human agent
+
+### Five Product Modules
+
+| Module | Description | Key Scenario |
+|--------|-------------|--------------|
+| **Intent Discovery (意向挖掘)** | High-volume calling to identify and qualify potential customers | Cold lead screening, market surveys |
+| **Lead-to-WeChat (线索加微)** | Converts phone leads to WeChat connections for ongoing engagement | Education trial classes (95% conversion rate vs 87% human) |
+| **Product Sales (产品销售)** | Conducts sales conversations with objection handling and closing | Insurance, telecom plan upgrades |
+| **Hotline Reception (热线接听)** | Inbound call handling with intelligent routing and resolution | Customer support, reservation systems |
+| **Service Communication (服务沟通)** | Ongoing customer relationship management calls | Satisfaction surveys, renewal reminders, appointment confirmations |
+
+### Platform Features
+
+- **Real-Time Intent Recognition**: LLM-powered understanding of caller intent, sentiment, and conversation stage
+- **Multi-Turn Dialogue**: Supports complex, extended conversations with full context retention — 300% improvement in long-dialogue handling
+- **7×24×365 Availability**: Continuous operation without fatigue, mood variation, or scheduling constraints
+- **Industry Customization**: 1000+ domain knowledge assets across 30+ industries, fully customizable per business scenario
+- **Call Recording & Transcription**: Full conversation recording with searchable transcription and automated quality scoring
+- **Smart Analytics Dashboard**: Real-time call volume, connection rates, intent classification, conversion tracking, and performance KPI dashboards
+- **CRM Integration**: API and webhook support for seamless integration with enterprise CRM, ERP, and ticketing systems
+- **"Talk and Act" Capability**: Cross-system real-time operations during calls — the AI can look up records, create orders, or update CRM entries while maintaining the conversation
+
+## Technical Architecture
+
+### Core Technology Stack
+
+WhoBot's technology is built on three proprietary systems:
+
+1. **Proprietary Voice System (自研语音系统)**
+   - Built end-to-end for Chinese telephone conversation scenarios
+   - Trained on billions of real telephone conversation data points
+   - 300% improvement in long-dialogue coherence compared to general-purpose models
+   - Handles domain-specific terminology, dialect variations, and telephone audio quality
+
+2. **Humanization Engine (拟人化引擎)**
+   - Proprietary ASR optimized for telephone audio (8kHz narrowband)
+   - Real-time streaming TTS with natural prosody, breathing patterns, and emotion adaptation
+   - End-to-end latency under 500ms for natural conversation cadence
+   - Multiple voice personas customizable per brand and scenario
+
+3. **Talk-and-Act Real-Time OS (边说边做实时 OS)**
+   - Enables simultaneous conversation and system operations
+   - Cross-system integration for real-time data lookup, order creation, and record updates during live calls
+   - State-tracking dialogue engine supporting topic switching, interruption recovery, and conversation resumption
+
+### AI Pipeline
+
+```
+Inbound/Outgoing Call
+       ↓
+ASR (Speech-to-Text, telephone-optimized)
+       ↓
+NLU (Intent + Entity + Sentiment Recognition)
+       ↓
+Dialogue Policy (LLM-based decision engine)
+       ↓
+NLG (Response generation with persona & script adherence)
+       ↓
+TTS (Real-time voice synthesis with emotion)
+       ↓
+Talk-and-Act Real-Time OS (concurrent system operations)
+       ↓
+Analytics & Reporting
+```
+
+## Industry Solutions
+
+### Healthcare (医疗)
+
+- **Dental Chain Promotion**: Campaigns for oral health clinics — 23,183+ calls completed
+- **Post-Treatment Follow-Up**: Patient satisfaction surveys, medication reminders, next-appointment scheduling — 31,291+ calls completed
+- **Medical Device Lead Screening**: Initial qualification of prospects for vision/optical equipment manufacturers — 32,887+ calls completed
+- **Cosmetic Surgery Membership Events**: VIP member event invitations for plastic surgery hospitals — 51,331+ calls completed
+
+### Automotive (汽车)
+
+- **4S Dealership Invitations**: Lead qualification and showroom visit scheduling — 32,018+ calls completed
+- **Purchase Event Campaigns**: Campaigns for sales events, trade-in promotions, new model launches — 6,320+ calls completed
+
+### Restaurant & Franchise (餐饮)
+
+- **Franchise Development**: Cold outreach to potential franchisees with brand introduction, qualification, and meeting scheduling
+- **Hotline Reception**: Inbound call handling for reservations, menu inquiries, store hours, and location information
+- **Complaint Management**: Structured complaint intake with severity classification, escalation routing, and resolution tracking
+
+### Education (教育)
+
+- **Trial Class Invitations**: Engages prospective students and parents to schedule trial sessions
+- **Lead-to-WeChat Conversion**: Converts phone leads to WeChat contacts for ongoing nurturing — **95% conversion rate** (vs 87% for human agents)
+- **Course Consultation**: Answers curriculum questions, recommends suitable programs, handles enrollment inquiries
+
+### Telecom & BPO (通信)
+
+- **Carrier SP Services**: High-volume calling for plan upgrades, contract renewals, customer win-back programs
+- **Cost Efficiency**: 1,000 conversions cost ¥30,000 with WhoBot vs ¥300,000 with human agents — **90% cost reduction**
+
+### Retail & Home Renovation (零售/家装)
+
+- **Lead Screening**: High-volume calling for marketing lead qualification with automated intent scoring
+- **Store Visit Scheduling**: Converts qualified leads into confirmed showroom or store appointments
+- **Promotion Campaigns**: Targeted calling for seasonal sales, loyalty programs, and new store opening events
+
+### Additional Industries
+
+WhoBot also serves manufacturing (制造), government & enterprise (政企), and other industries with telephone communication needs. The platform covers 30+ industries with 1000+ domain knowledge assets.
+
+## Business Model & Economics
+
+### Cost Advantage
+
+| Scenario | Human Agent Cost | WhoBot Cost | Savings |
+|----------|-----------------|-------------|---------|
+| Telecom SP: 1,000 conversions | ¥300,000 | ¥30,000 | 90% |
+| General calling: per agent/month | ¥8,000-15,000 | ¥1,000-3,000 | 80-87% |
+
+### Value Proposition
+
+- **10x Cost Reduction**: AI phone digital employees cost a fraction of human agents while handling higher call volumes
+- **Zero Downtime**: 7×24×365 operation eliminates shift scheduling, sick days, and turnover
+- **Consistent Quality**: Every call follows best-practice scripts without fatigue-induced performance degradation
+- **Instant Scalability**: Scale from 10 to 10,000 concurrent calls without hiring or training
+- **Data-Driven Optimization**: Every conversation is recorded, transcribed, and analyzed for continuous improvement
+
+## Customer Success Stories
+
+### 夸父炸串 (Kuafu Fried Skewers)
+National restaurant chain with hundreds of locations. WhoBot conducts franchise development outreach — AI phone digital employees call potential franchisees, introduce the brand, qualify interest level, and schedule follow-up meetings with human sales representatives. Result: expanded franchise pipeline while reducing BD team costs.
+
+### Telecom BPO Deployment
+Large-scale deployment for carrier service provider business. WhoBot handles high-volume campaigns for plan upgrades, contract renewals, and customer win-back. Achieved 1,000 successful conversions at ¥30,000 total cost — 90% cheaper than the ¥300,000 required with human agents.
+
+### 优学教育 (Youxue Education)
+Education institution using WhoBot for student enrollment. AI agents invite prospective students to trial classes, answer curriculum questions, and convert phone leads to WeChat contacts. Achieved **95% lead-to-WeChat conversion rate**, outperforming human agents at 87%.
+
+### Healthcare Chains
+Multiple healthcare clients including dental chains, hospitals, and medical device companies. Cumulative 138,000+ calls across patient follow-up, event invitations, and lead screening scenarios.
+
+## Competitive Advantages
+
+1. **Proprietary End-to-End Stack**: WhoBot owns the entire voice AI pipeline from speech recognition to synthesis, optimized for Chinese telephone audio
+2. **Human-Like Realism**: 98% of recipients cannot distinguish WhoBot from a human agent — industry-leading anthropomorphism through pause timing, filler words, and interruption handling
+3. **"Talk and Act" Architecture**: Talk-and-Act Real-Time OS enables concurrent conversation and system operations, creating a closed-loop from call to business action
+4. **Industry Depth**: 1000+ domain knowledge assets built from billions of real conversations, continuously refined with client feedback
+5. **Proven Unit Economics**: 90% cost reduction vs human agents with equal or better conversion rates, validated across 300+ enterprise deployments
+6. **100% Renewal Rate**: Mid-to-large client renewal rate of 100% demonstrates strong product-market fit and customer satisfaction
+7. **GSR Ventures Backed**: Series A funding from GSR Ventures (金沙江创投), one of China's top venture capital firms known for backing Didi, Ele.me, and other category leaders
